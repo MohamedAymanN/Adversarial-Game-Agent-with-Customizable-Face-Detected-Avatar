@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Isolation Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Isolation Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Isolation Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add option="-static-libgcc" />
+			<Add directory="D:/Fall 18/ECEN-501/Projects/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="D:/Fall 18/ECEN-501/Projects/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/AI_GameEngine.h" />
+		<Unit filename="include/AI_Winner_Screen.h" />
+		<Unit filename="include/Campaign_CharSelect_Screen.h" />
+		<Unit filename="include/Campaign_Play_Screen.h" />
+		<Unit filename="include/Choose_Mode_Screen.h" />
+		<Unit filename="include/Credits_Screen.h" />
+		<Unit filename="include/GameEngine.h" />
+		<Unit filename="include/Game_Screen.h" />
+		<Unit filename="include/Gif_Loader.h" />
+		<Unit filename="include/HighscoreEngine.h" />
+		<Unit filename="include/Howtop_Screen.h" />
+		<Unit filename="include/Input_Manager.h" />
+		<Unit filename="include/Main_Menu.h" />
+		<Unit filename="include/MultiP_CharSelectP1_Screen.h" />
+		<Unit filename="include/MultiP_CharSelectP2_Screen.h" />
+		<Unit filename="include/Multi_Player_Screen.h" />
+		<Unit filename="include/RL_Screen.h" />
+		<Unit filename="include/Screen_Manager.h" />
+		<Unit filename="include/Settings_Screen.h" />
+		<Unit filename="include/SingleP_CharSelect_Screen.h" />
+		<Unit filename="include/Single_Player_Screen.h" />
+		<Unit filename="include/StartGame_Screen.h" />
+		<Unit filename="include/Tournament_Play_Screen.h" />
+		<Unit filename="include/Tournament_init_Screen.h" />
+		<Unit filename="include/Tourny_CharSelectP1_Screen.h" />
+		<Unit filename="include/Tourny_CharSelectP2_Screen.h" />
+		<Unit filename="include/Tourny_Winner_Screen.h" />
+		<Unit filename="include/Vs_Screen.h" />
+		<Unit filename="include/Winner_Screen.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/AI_GameEngine.cpp" />
+		<Unit filename="src/AI_Winner_Screen.cpp" />
+		<Unit filename="src/Campaign_CharSelect_Screen.cpp" />
+		<Unit filename="src/Campaign_Play_Screen.cpp" />
+		<Unit filename="src/Choose_Mode_Screen.cpp" />
+		<Unit filename="src/Credits_Screen.cpp" />
+		<Unit filename="src/GameEngine.cpp" />
+		<Unit filename="src/Game_Screen.cpp" />
+		<Unit filename="src/Gif_Loader.cpp" />
+		<Unit filename="src/HighscoreEngine.cpp" />
+		<Unit filename="src/Howtop_Screen.cpp" />
+		<Unit filename="src/Input_Manager.cpp" />
+		<Unit filename="src/Main_Menu.cpp" />
+		<Unit filename="src/MultiP_CharSelectP1_Screen.cpp" />
+		<Unit filename="src/MultiP_CharSelectP2_Screen.cpp" />
+		<Unit filename="src/Multi_Player_Screen.cpp" />
+		<Unit filename="src/RL_Screen.cpp" />
+		<Unit filename="src/Screen_Manager.cpp" />
+		<Unit filename="src/Settings_Screen.cpp" />
+		<Unit filename="src/SingleP_CharSelect_Screen.cpp" />
+		<Unit filename="src/Single_Player_Screen.cpp" />
+		<Unit filename="src/StartGame_Screen.cpp" />
+		<Unit filename="src/Tournament_Play_Screen.cpp" />
+		<Unit filename="src/Tournament_init_Screen.cpp" />
+		<Unit filename="src/Tourny_CharSelectP1_Screen.cpp" />
+		<Unit filename="src/Tourny_CharSelectP2_Screen.cpp" />
+		<Unit filename="src/Tourny_Winner_Screen.cpp" />
+		<Unit filename="src/Vs_Screen.cpp" />
+		<Unit filename="src/Winner_Screen.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
